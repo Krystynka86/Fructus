@@ -61,6 +61,7 @@ struct FruitDetailView: View {
             } //: SCROLL
             .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
+        .navigationViewStyle(StackNavigationViewStyle()) // adapting the navigation view to Ipad bigger screen
     }
 }
 
