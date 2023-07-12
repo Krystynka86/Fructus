@@ -20,9 +20,7 @@ struct ContentView: View {
                     NavigationLink(destination: FruitDetailView(fruit: item)) {
                         FruitRowView(fruit: item)
                         .padding(.vertical, 4)
-                        
                     }
-                    
                 }
             }
             .navigationTitle("Fruits")
